@@ -1,0 +1,12 @@
+$c_black : #000;
+$c_tomato : tomato;
+
+.page {
+
+    position   : relative;
+    background : $c_tomato;
+
+    &__inner {
+        background : $c_black;
+    }
+}
